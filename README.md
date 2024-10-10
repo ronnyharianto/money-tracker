@@ -1,66 +1,36 @@
-# MoneyTracker
-
-![Development Status](https://img.shields.io/badge/status-in%20development-orange)
-
-**MoneyTracker** is a personal finance application to track income, expenses, and transfers between your accounts. It provides a clear view of your financial activities, with the ability to generate detailed reports.
-
-## Features
-
-- Record income, expenses, and transfers
-- Specify accounts (bank, cash, etc.) and categories (income/expenses)
-- Add notes and amounts to transactions
-- Monthly reports and more for insights into your finances
-
-## Technology Stack
-
-- [Next.js](https://nextjs.org/) - React framework for server-side rendering and static site generation
-- PostgreSQL or any preferred database
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
 
-Follow these instructions to get the project up and running on your local machine.
+First, run the development server:
 
-### Prerequisites
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-- [Node.js](https://nodejs.org/) installed on your machine
-- [PostgreSQL](https://www.postgresql.org/) (or any database) for data storage
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-### Installation
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-1. Clone the repository:
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-   ```
-   git clone https://github.com/ronnyharianto/moneytracker.git
-   ```
+## Learn More
 
-2. Navigate to the project directory:
-   ```
-   cd moneytracker
-   ```
-3. Install dependencies:
-   ```
-   npm install
-   ```
-4. Duplicate the **.env.example** file and rename it to **.env**:
-   ```
-   cp .env.example .env
-   ```
-5. Edit the **.env** file with your own configurations:
-   ```
-   DATABASE_URL=your_database_url
-   NEXT_PUBLIC_API_URL=your_api_url
-   ```
+To learn more about Next.js, take a look at the following resources:
 
-### Running the App
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-1. Start the development server::
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-   ```
-   npm run dev
-   ```
+## Deploy on Vercel
 
-2. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-### Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
