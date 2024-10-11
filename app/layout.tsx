@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "@/styles/globals.css";
+import { AntdRegistry } from '@ant-design/nextjs-registry';
 
 export const metadata: Metadata = {
   title: "Money Tracker",
@@ -13,8 +14,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`dark antialiased`}>
-        {children}
+      <body className={`antialiased`}>
+        <AntdRegistry>{children}</AntdRegistry>
       </body>
     </html>
   );
